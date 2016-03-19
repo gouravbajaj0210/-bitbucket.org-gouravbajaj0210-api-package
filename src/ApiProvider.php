@@ -1,6 +1,6 @@
 <?php
 
-namespace mandeep03\api;
+namespace gouravbajaj0210\api;
 
 use Illuminate\Support\ServiceProvider;
 

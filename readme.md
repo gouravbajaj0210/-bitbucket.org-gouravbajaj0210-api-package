@@ -6,12 +6,12 @@ First, pull in the package through Composer.
 
 ```js
 "require": {
-    "mandeep03/api": "dev-master"
+    "gouravbajaj0210/api": "dev-master"
 },
   "repositories": [
     {
         "type": "git",
-        "url": "https://MandeepBot:MnPs4731@bitbucket.org/mandeep03/api.git"
+        "url": "https://gouravbajaj0210@bitbucket.org/gouravbajaj0210/api-package.git"
     }
     ],
 ```
@@ -20,7 +20,7 @@ And then, include the service provider within `config/app.php`.
 
 ```php
 'providers' => [
-    mandeep03\api\ApiProvider::class
+    gouravbajaj0210\api\ApiProvider::class
 ];
 ```
 
@@ -28,7 +28,7 @@ And, for convenience, add a facade alias to this same file at the bottom:
 
 ```php
 'aliases' => [
-    'api' => mandeep03\api\ApiFacade::class
+    'api' => gouravbajaj0210\api\ApiFacade::class
 ];
 ```
 

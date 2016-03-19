@@ -1,4 +1,4 @@
-<?php namespace mandeep03\api;
+<?php namespace gouravbajaj0210\api;
 
 class ApiResponse{
 

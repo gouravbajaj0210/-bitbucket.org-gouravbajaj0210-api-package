@@ -1,16 +1,16 @@
 {
-    "name": "mandeep03/api",
+    "name": "gouravbajaj0210/api",
     "description": "Easy API responses.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mandeep Dhillon",
-            "email": "mandeepdhillon033@gmail.com"
+            "name": "Gourav Bajaj",
+            "email": "gouravbajaj0210@gmail.com"
         }
     ],
     "autoload":{
         "psr-4": {
-            "mandeep03\\api\\": "src/"
+            "gouravbajaj0210\\api\\": "src/"
         },
         "files": [
             "src/functions.php"
