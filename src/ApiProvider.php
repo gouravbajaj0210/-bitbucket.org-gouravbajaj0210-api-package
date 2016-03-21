@@ -26,7 +26,7 @@ class ApiProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('api', function () {
-            return $this->app->make('mandeep03\api\ApiResponse');
+            return $this->app->make('gouravbajaj0210\api\ApiResponse');
         });
 
         // $this->mergeConfigFrom(
